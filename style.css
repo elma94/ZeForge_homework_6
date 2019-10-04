@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+section{
+    display: inline-flex;
+}
+ 
+#navbar{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+ 
+.logo{
+    display: inline-flex;
+    width: 31%;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    order: 0;
+    
+}
+.logo img{
+    width: 160px;
+    height: 50px; 
+    opacity: 0.7;
+    filter: brightness(1.8)contrast(0)hue-rotate(217deg)saturate(5.0);
+}
+ 
+.navigation{
+    align-items: center;
+    display: flex;
+}
+.menu, ul {
+    display: inline-flex;
+    width: 450px;
+    order: 1;
+    justify-content: flex-start;
+}
+ 
+li{
+    list-style-type: none;
+    margin: 10px;
+}
+ 
+.home, .about, .ourGame, .contact{
+    text-decoration: none;
+    font-family: georgia;
+    color: rgb(243, 119, 36);
+    font-weight: bold;
+}
+ 
+.search{
+    display: inline-flex;
+    order:2;
+    width: 250px;
+    margin: 10px 0px;
+    
+}
+ 
+.search-input{
+    border-radius: 20px;
+    background-color: rgb(183, 214, 250);
+    padding: 15px;
+}
+ 
+.icon{
+    display: inline-flex;
+    width: 20px;
+    height: 20px;
+    background-image: url("http://icons.iconarchive.com/icons/iconleak/atrous/24/search-icon.png");
+    margin-left: -30px;
+    margin-top: 4px;
+}
+ 
+.banner{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/Portugal/The%20Algarve/Praia-da-Marinha-algarve-beaches-xxlarge.jpg");
+    background-size: cover;
+    flex-direction: row;
+}
+ 
+.arrowL{
+    display: flex;
+    width: 23%;
+    align-items: flex-start;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+ 
+.imgboxL > img{
+    display: flex;
+    width: 50px;
+    height: 100;
+}
+ 
+.sectionTXT{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    background:rgba(114, 96, 96, 0.3);
+    color: white;
+    padding: 20px;
+}
+ 
+.empty{
+    display: flex;
+    width: 40%;
+    background-color: transparent;
+}
+ 
+.arrowR{
+    display: flex;
+    width: 20%;
+    justify-content: flex-end;
+    background-color: transparent;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.imgboxR > img{
+    display: flex;
+    width: 50px;
+    height: 100;
+}
+ 
+.button{
+    border-radius: 30px;
+    width: 200px;
+    background-color: rgb(243, 119, 36);
+    height: 25px;
+    color: white;
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    font-weight: bold;
+}
+ 
+.btnLogo .paperplane{
+    width: 13px;
+    height: 13px;
+    background: transparent;
+    margin-left: 90px;
+    padding-top: 3px;
+}
+ 
+.aboutUs{
+    display: block;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+ 
+.who {
+    display: flex;
+    height: 50px;
+    padding-top: 15px;
+    border-bottom: 2px solid gray;
+}
+ 
+.who > h3{
+    color: gray;
+    font-family: arial;
+    font-size: 18px;
+}
+#items{
+    display: flex; 
+    width: 100%;
+    justify-content: space-between;
+ 
+}
+ 
+.item1, .item2, .item3{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+ 
+.smallpic1 > img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    padding-top: 20px;
+}
+ 
+.smallpic2 > img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    padding-top: 20px;
+}
+ 
+.smallpic3 > img{
+    width: 50px;
+    height: 50px;
+    opacity: 0.5;
+    padding-top: 20px;
+}
+ 
+.itemTitle{
+    color:gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+ 
+.itemPar{
+    text-align: justify;
+    color: gray;
+    padding: 5px;
+}
+ 
+.readMore{
+    color: rgb(243, 119, 36);
+    font-weight: bold;
+    padding: 5px;
+}
